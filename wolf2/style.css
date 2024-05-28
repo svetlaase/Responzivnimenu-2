@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1px 20px;
+
+  background-color: white;
+}
+
+.logo {
+  margin-right: 30px;
+}
+
+.logo img {
+  height: 70px;
+}
+
+nav {
+  flex-grow: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-flex;
+  list-style: none;
+  margin: 0px;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(96, 170, 199);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.Wolf {
+  background-image: url("img/vlci.jpg");
+  min-height: calc(100vh - 70px);
+  background-size: cover;
+  background-position: center;
+}
